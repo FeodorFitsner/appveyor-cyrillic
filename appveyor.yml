@@ -4,7 +4,7 @@ build:
   project: СпециальноДляAppveyor.sln
   verbosity: minimal
 before_build:
-- cmd: nuget restore СпециальноДляAppveyor.sln
+- cmd: nuget restore
 after_build:
 - cmd: nuget pack СпециальноДляAppveyor\СпециальноДляAppveyor.nuspec -Version %APPVEYOR_BUILD_VERSION% -Properties "CONFIGURATION=%CONFIGURATION%"
 artifacts:
