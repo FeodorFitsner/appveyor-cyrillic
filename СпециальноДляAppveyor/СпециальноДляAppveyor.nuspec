@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Test</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>Sergey Filenko</authors>
+    <owners>Sergey Filenko</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Appveyor</description>
+    <copyright>Copyright 2017</copyright>
+  </metadata>
+<files>
+	<file src="bin\$CONFIGURATION$\СпециальноДляAppveyor.dll" target="lib\СпециальноДляAppveyor.dll" />
+</files>
+</package>
