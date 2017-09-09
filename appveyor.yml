@@ -1,7 +1,7 @@
 version: 1.0.{build}
 image: Previous Visual Studio 2015
 build:
-  project: SpecialForAppveyor.sln
+  project: СпециальноДляAppveyor.sln
   verbosity: minimal
 before_build:
 - cmd: nuget restore
