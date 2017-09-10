@@ -1,4 +1,8 @@
 version: 1.0.{build}
+
+init:
+- REG ADD "HKLM\Software\Microsoft\Command Processor" /v Autorun /t REG_SZ /d "chcp 65001" /f
+
 build:
   project: СпециальноДляAppveyor.sln
   verbosity: minimal
